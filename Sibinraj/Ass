@@ -1,0 +1,76 @@
+Comment 
+hare 
+Assignment_1.ipynb File Edit View Insert Runtime Tools Help 
+Comment RAM 
+, Share o - Editing 
++ Code 
++ Text 
+a 
+- Basic Python 
+- 1. Split this string 
+[1] s = "Hi there Sam!" 
+[2] s.split() 
+['Hi', 'there', 'Sam!"] 
+2. Use .format( to print the following string. 
+Output should be: The diameter of Earth is 12742 kilometers, 
+[3] planet = "Earth" 
+diameter = 12742 
+[4] print('The diameter of () is () kilometers." .format(planet, diameter)); 
+The diameter of Earth is 12742 kilometers. 
+3. In this nest dictionary grab the word "hello" 
+[5] d = {'ki':[1,2,3, {'tricky":['ch', 'man', 'inception', {' target":[1,2,3, 'hello']}]}]} 
+[6] print(a['ki'][3]["tricky"][3]['target'][3] 
+hello 
+Numpy 
+[7] import numpy as np 
+4.1 Create an array of 10 zeros? 
+4.2 Create an array of 10 fives? 
+[8] import numpy as np 
+array=np.zeros(10) print("An array of 10 zeros:") print(array) 
+An array of 10 zeros: [0.0.0.0.0.0.0.0.0.0.] 
+[9] i пipart Пumpy as пр 
+array=np.ones (10)*5 print("An array of 10 fives:") print(array) 
+An array of 10 fives: [5. 5. 5. 5. 5. 5. 5. 5. 5. 5.1 
+5. Create an array of all the even integers from 20 to 35 
+import numpy as np array=np.arange(20,36,2) print("Array of all the even integers from 20 to 35") print(array) 
+Array of all the even integers from 20 to 35 (20 22 24 26 28 30 32 34] 
+mite il 
+!! Share 
+Assignment_1.ipynb File Edit View Insert Auntime Tools Help Saving... + Code + Text 
+6. Create a 3x3 matrix with values ranging from 0 to 8 
+Comment RAM 
+A Share 
+Editing 
+RAM 
+[17] import numpy as np 
+X = np.arange(0, 9).reshape(3,3) print(x) 
+[[0 1 2] 
+[3 4 5] [6 7 8]] 
+7. Concatenate a and b 
+a = np.array([1,2,3]), b = np.array([4, 5, 6]) 
+[15] a = np.array([1, 2, 3]) 
+print(a) 
+b = np.array([4, 5, 6]} print(b) 
+print("\n---Result of a and b---') print(np.concatenate((a, b))) 
+[1 2 3] [4 5 6] 
+---Result of a and b--- [1 2 3 4 5 6] 
+Pandas 
+8. Create a dataframe with 3 rows and 2 columns 
+[13] import pandas as pd 
+[14] 
+data=[10,20,30] d=pd.DataFrame(data, columns=[ 'Numbers']) print(d) 
+Numbers 
+9. Generate the series of dates from 1st Jan, 2023 to 10th Feb, 2023 
+on [12] import pandas as pd 
+from dateutil.parser import parse date_series=pd.Series(['Jan 2023', 'Feb 2023']) print("Original Series:") print(date_series) 
+Original Series: 0 . Jan 2023 
+Feb 2023 dtype: object 
+10. Create 2D list to DataFrame 
+lists = [[1, 'aaa', 22). [2, 'bbb', 252, (3, 'ccc', 24]] 
+[11] import pandas as pd 
+lists = [[1, 'aaa', 22], [2, "bbb', 25]. [3, ccc', 24]] df = pd.DataFrame(lists, columns = ['number', 'name', 'Lnumber']) print(df) 
+number 
+Enumber name 
+1 aaa 2 bbb 3 CCC 
+Os 
+completed at 10:00 PM 
